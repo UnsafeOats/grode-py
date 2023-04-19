@@ -4,8 +4,8 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 REQUIREMENTS = [
-    # Add your list of production dependencies here, eg:
-    # 'requests == 2.*',
+    'astor == 0.8.*',
+    'click == 8.*',
 ]
 
 DEV_REQUIREMENTS = [
@@ -20,13 +20,13 @@ DEV_REQUIREMENTS = [
 ]
 
 setuptools.setup(
-    name='PROJECT_NAME_URL',
+    name='grode',
     version='0.1.0',
-    description='Your project description here',
+    description='A Python library for parsing Python libraries.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='http://github.com/USERNAME/PROJECT_NAME_URL',
-    author='USERNAME',
+    url='http://github.com/UnsafeOats/grode-py',
+    author='Shane Stephenson <stephenson.shane.a@gmail.com>',
     license='MIT',
     packages=setuptools.find_packages(
         exclude=[
@@ -35,7 +35,7 @@ setuptools.setup(
         ]
     ),
     package_data={
-        'PROJECT_NAME_URL': [
+        'grode': [
             'py.typed',
         ]
     },
@@ -50,7 +50,7 @@ setuptools.setup(
     },
     entry_points={
         'console_scripts': [
-            'PROJECT_NAME_URL=project_name.my_module:main',
+            'grode=grode.main:main',
         ]
     },
     python_requires='>=3.7, <4',

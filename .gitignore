@@ -1,4 +1,6 @@
 __pycache__
+grode/__pycache__
+test/__pycache__
 .coverage
 .DS_Store
 .env
