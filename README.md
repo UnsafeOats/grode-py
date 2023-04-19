@@ -9,7 +9,7 @@ A Python library to extract code signatures and dependencies for Python code.
 [![PyPi](https://img.shields.io/pypi/v/grode-py)](https://pypi.org/project/grode-py)
 [![Licence](https://img.shields.io/github/license/UnsafeOats/grode-py)](LICENSE)
 
-<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/python-template/showcase.png" alt="Showcase">
+<img src="https://raw.githubusercontent.com/UnsafeOats/UnsafeOats.github.io/master/cartoon-oatbread.png" alt="Showcase">
 
 </div>
 
